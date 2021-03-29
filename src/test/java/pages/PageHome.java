@@ -1,15 +1,12 @@
 package pages;
 
 import general.Base;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class PageHome extends Base {
-
-    Base base;
 
     public PageHome(WebDriver driver) {
         super(driver);
@@ -34,4 +31,8 @@ public class PageHome extends Base {
         search(product);
         buttonSearch.sendKeys(Keys.ENTER);
     }
+
+
+
+
 }
